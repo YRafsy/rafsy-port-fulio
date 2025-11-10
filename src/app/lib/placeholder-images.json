@@ -1,0 +1,230 @@
+{
+    "aboutSectionImages": [
+        { "src": "/images/file_010.jpg", "hint": "developer portrait" },
+        { "src": "/images/file_011.jpg", "hint": "code on screen" },
+        { "src": "/images/file_012.jpg", "hint": "server room" },
+        { "src": "/images/file_015.jpg", "hint": "data science dashboard" }
+    ],
+    "reports": {
+        "social-ace": {
+            "src": "/images/posts/social-ace-report.png",
+            "hint": "social media"
+        },
+        "prompt-engineering-webapp": {
+            "src": "/images/posts/prompt-engineering-webapp-report.png",
+            "hint": "AI interface"
+        },
+        "TinyML-analysis": {
+            "src": "/images/posts/TinyML-analysis-report.png",
+            "hint": "circuit board"
+        },
+        "EDA-for-Deep-Learning": {
+            "src": "/images/posts/EDA-for-Deep-Learning-report.png",
+            "hint": "data visualization"
+        },
+        "Dataflow-Nexus": {
+            "src": "/images/posts/Dataflow-Nexus-report.png",
+            "hint": "data pipeline"
+        },
+        "BizBoard": {
+            "src": "/images/posts/BizBoard-report.png",
+            "hint": "business dashboard"
+        },
+        "ScholarSphere-academic-research": {
+            "src": "/images/posts/ScholarSphere-academic-research-report.png",
+            "hint": "academic research"
+        },
+        "AI-Photo-Platform": {
+            "src": "/images/posts/AI-Photo-Platform-report.png",
+            "hint": "photo editing"
+        },
+        "Multi-Agent-Systems-in-IoT": {
+            "src": "/images/posts/Multi-Agent-Systems-in-IoT.png",
+            "hint": "iot network"
+        },
+        "LMS-Dashboard": {
+            "src": "/images/posts/LMS-Dashboard-report.png",
+            "hint": "education dashboard"
+        },
+        "VisionFlow": {
+            "src": "/images/posts/VisionFlow-report.png",
+            "hint": "computer vision"
+        },
+        "API-integration": {
+            "src": "/images/posts/API-integration-report.png",
+            "hint": "api code"
+        },
+        "Web-Video-Editor": {
+            "src": "/images/posts/Web-Video-Editor-report.png",
+            "hint": "video editing"
+        },
+        "different-programming-language-analysis": {
+            "src": "/images/posts/different-programming-language-analysis-report.png",
+            "hint": "programming code"
+        },
+        "fashion-industry-analysis": {
+            "src": "/images/posts/fashion-industry-analysis-report.png",
+            "hint": "fashion design"
+        },
+        "new-product-purches-analysis": {
+            "src": "/images/posts/new-product-purches-analysis-report.png",
+            "hint": "online shopping"
+        },
+        "online-customer-analysis": {
+            "src": "/images/posts/online-customer-analysis-report.png",
+            "hint": "customer analysis"
+        },
+        "purchase-behavior-analysis": {
+            "src": "/images/posts/purchase-behavior-analysis-report.png",
+            "hint": "shopping chart"
+        },
+        "react-nodeJS-nextJS-analysis": {
+            "src": "/images/posts/react-nodeJS-nextJS-analysis-report.png",
+            "hint": "code logos"
+        },
+        "real-time-screming": {
+            "src": "/images/posts/real-time-screming-report.png",
+            "hint": "data stream"
+        },
+        "renewable-energy": {
+            "src": "/images/posts/renewable-energy-report.png",
+            "hint": "wind turbine"
+        },
+        "stock-market-101": {
+            "src": "/images/posts/stock-market-101-report.png",
+            "hint": "stock chart"
+        },
+        "travel-and-finential-integration": {
+            "src": "/images/posts/travel-and-finential-integration-report.png",
+            "hint": "travel finance"
+        },
+        "violence-agenst-woman": {
+            "src": "/images/posts/violence-agenst-woman-report.png",
+            "hint": "social justice"
+        },
+        "web-state-management": {
+            "src": "/images/posts/web-state-management-report.png",
+            "hint": "data flow"
+        },
+        "year-between-1971-1976": {
+            "src": "/images/posts/year-between-1971-1976-report.png",
+            "hint": "historical document"
+        },
+        "AI-agents": {
+            "src": "/images/posts/AI-agents-report.png",
+            "hint": "ai robot"
+        },
+        "AI-anime-research": {
+            "src": "/images/posts/AI-anime-research-report.png",
+            "hint": "anime character"
+        },
+        "Business-persona-analysis": {
+            "src": "/images/posts/Business-persona-analysis-report.png",
+            "hint": "business persona"
+        },
+        "Data-Insights-Navigator": {
+            "src": "/images/posts/Data-Insights-Navigator-report.png",
+            "hint": "data dashboard"
+        },
+        "management-system-for-educational-platform": {
+            "src": "/images/posts/management-system-for-educational-platform-report.png",
+            "hint": "education platform"
+        },
+        "MLOps": {
+            "src": "/images/posts/MLOps-report.png",
+            "hint": "devops pipeline"
+        },
+        "Realistic-image-generation": {
+            "src": "/images/posts/Realistic-image-generation-report.png",
+            "hint": "realistic portrait"
+        },
+        "Tailwind-tecnical": {
+            "src": "/images/posts/Tailwind-tecnical-report.png",
+            "hint": "css code"
+        },
+        "admin-dashboard": {
+            "src": "/images/posts/admin-dashboard-report.png",
+            "hint": "dashboard analytics"
+        },
+        "ai-strategy-nexus": {
+            "src": "/images/posts/ai-strategy-nexus.png",
+            "hint": "ai brain"
+        },
+        "bangladesh-after-1971": {
+            "src": "/images/posts/bangladesh-after-1971.png",
+            "hint": "flag map"
+        },
+        "bangladesh-ecommerce-market": {
+            "src": "/images/posts/bangladesh-ecommerce-market.png",
+            "hint": "online shopping"
+        },
+        "chemistry-lab-atom": {
+            "src": "/images/posts/chemistry-lab-atom.png",
+            "hint": "atom model"
+        },
+        "coffee-trade": {
+            "src": "/images/posts/coffee-trade.png",
+            "hint": "coffee beans"
+        },
+        "data-insight-navigator": {
+            "src": "/images/posts/data-insight-navigator.png",
+            "hint": "data analytics"
+        },
+        "eda-with-pytorch": {
+            "src": "/images/posts/eda-with-pytorch.png",
+            "hint": "pytorch logo"
+        },
+        "engineering-prompts": {
+            "src": "/images/posts/engineering-prompts.png",
+            "hint": "ai prompt"
+        },
+        "first-post": {
+            "src": "/images/posts/first-post.png",
+            "hint": "code journey"
+        },
+        "heart-attack-rate": {
+            "src": "/images/posts/heart-attack-rate.png",
+            "hint": "heartbeat chart"
+        },
+        "home-electronics-lab": {
+            "src": "/images/posts/home-electronics-lab.png",
+            "hint": "circuit board"
+        },
+        "industrial-management-system": {
+            "src": "/images/posts/industrial-management-system.png",
+            "hint": "factory automation"
+        },
+        "intro-to-stock-market": {
+            "src": "/images/posts/intro-to-stock-market.png",
+            "hint": "stock chart"
+        },
+        "js-frameworks-report": {
+            "src": "/images/posts/js-frameworks-report.png",
+            "hint": "framework logos"
+        },
+        "modern-fashion-consumer": {
+            "src": "/images/posts/modern-fashion-consumer.png",
+            "hint": "fashion retail"
+        },
+        "modern-programming": {
+            "src": "/images/posts/modern-programming.png",
+            "hint": "code screen"
+        },
+        "python-zero-to-advanced": {
+            "src": "/images/posts/python-zero-to-advanced.png",
+            "hint": "python code"
+        },
+        "second-post": {
+            "src": "/images/posts/second-post.png",
+            "hint": "nextjs firebase"
+        },
+        "tensorflow-pytorch-report": {
+            "src": "/images/posts/tensorflow-pytorch-report.png",
+            "hint": "tensorflow pytorch"
+        },
+        "third-post": {
+            "src": "/images/posts/third-post.png",
+            "hint": "code embed"
+        }
+    }
+}

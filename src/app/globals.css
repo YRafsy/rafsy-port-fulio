@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root, .theme-teal {
+    --background: 222 84% 4.9%; /* #020817 - A softer, more professional off-black */
+    --foreground: 210 40% 98%;
+    --card: 222 84% 8%; /* Slightly lighter card background */
+    --card-foreground: 210 40% 98%;
+    --popover: 222 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 180 100% 25.1%; /* #008080 - Kept Teal as primary */
+    --primary-foreground: 180 80% 95%;
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 120 60.9% 50.4%; /* #32CD32 - Vibrant Lime Green for high contrast */
+    --accent-foreground: 120 100% 10%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 180 100% 25.1%; /* Ring to match primary */
+    --radius: 0.5rem;
+    --chart-1: 180 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 140 80% 55%;
+    --chart-4: 190 65% 60%;
+    --chart-5: 210 75% 55%;
+  }
+
+  .dark {
+    --background: 222 84% 4.9%; /* #020817 */
+    --foreground: 210 40% 98%;
+    --card: 222 84% 8%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 180 100% 25.1%;
+    --primary-foreground: 180 80% 95%;
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 120 60.9% 50.4%;
+    --accent-foreground: 120 100% 10%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 180 100% 25.1%;
+    --radius: 0.5rem;
+    --chart-1: 180 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 140 80% 55%;
+    --chart-4: 190 65% 60%;
+    --chart-5: 210 75% 55%;
+  }
+
+  .dark.theme-blue {
+    --background: 222 84% 4.9%; /* #020817 */
+    --foreground: 210 40% 98%;
+    --card: 222 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222 47% 11%;
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 217 91% 60%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 217 91% 60%;
+  }
+  .dark.theme-rose {
+    --background: 347 100% 5.1%;
+    --primary: 347 91% 60%;
+    --accent: 160 93% 47%;
+  }
+  .dark.theme-amber {
+    --background: 48 96% 6.1%;
+    --primary: 38 91% 60%;
+    --accent: 200 93% 47%;
+  }
+  .dark.theme-violet {
+    --background: 262 82% 6.1%;
+    --primary: 262 84% 60%;
+    --accent: 53 93% 47%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground transition-colors duration-1000 ease-in-out;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .animate-pulse-glow {
+    animation: pulse-glow 3s ease-in-out infinite;
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% {
+      box-shadow: 0 0 5px hsl(var(--accent) / 0.5);
+    }
+    50% {
+      box-shadow: 0 0 20px 5px hsl(var(--accent) / 0.5);
+    }
+  }
+
+  .animate-shimmer {
+    background-image: linear-gradient(
+      -60deg,
+      transparent 0%,
+      hsl(var(--primary) / 0.2) 50%,
+      transparent 100%
+    );
+    background-size: 200% auto;
+    animation: shimmer 4s linear infinite;
+  }
+
+  @keyframes shimmer {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+  @keyframes wave {
+    0%, 100% { transform: scaleY(0.5); }
+    50% { transform: scaleY(1); }
+  }
+  .animate-\[wave\] {
+    animation: wave 1.2s ease-in-out infinite;
+  }
+}
